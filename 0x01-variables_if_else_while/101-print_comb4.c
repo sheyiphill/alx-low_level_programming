@@ -14,7 +14,7 @@ int main(void)
 
 	while (e < 58)
 	{
-		i =48;
+		i = 48;
 		while (i < 58)
 		{
 			g = 48;
@@ -33,8 +33,10 @@ int main(void)
 					putchar(' ');
 				}
 				g++;
-			}i++;
-		}e++;
+			}
+			i++;
+		}
+		e++;
 	}
 	putchar('\n');
 	return (0);
