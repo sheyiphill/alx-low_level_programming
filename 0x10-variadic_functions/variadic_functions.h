@@ -2,13 +2,7 @@
 #define VARIADIC_FUNCTIONS_
 
 #include <stdarg.h>
-
-typedef struct printer
-{
-	char *symbol;
-	oid (*print)(va_list arg);
-
-} printer_t;
+#include <stdio.h>
 
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
